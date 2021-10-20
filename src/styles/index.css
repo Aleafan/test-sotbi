@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  margin: 1rem 0 1.5rem;
+  text-decoration: underline;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  margin: 2rem auto;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, #fdc500 50%, transparent 50%),
+              linear-gradient(to right, #f3efe6 50%, #262622 50%);
+}
+
+#underline {
+  text-align: center;
+}
+
+#underline p {
+  display: inline;
+  color: red;
+  cursor: pointer;
+  background-image: linear-gradient(black, black);
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 1s linear;
+}
+
+#underline p:hover {
+  background-size: 100% 1px;
+}
+
+.result {
+  color: red;
+}
+
+input {
+  display: block;
+  width: 300px;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+}
+
+#static-form p,
+.name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.name {
+  color: red;
+}
